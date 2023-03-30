@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="FAQ's.css">
+  <title>Document</title>
+</head>
+<body>
+  <section class="contact">
+    <div class="form">
+        <h1>Ask a Question</h1>
+        <form action="">
+            <input type="text" 
+            placeholder="Your Name">
+            <input type="email" 
+            placeholder="Your Email">
+            <textarea cols="30" rows="10"
+            placeholder="Your Message">
+            </textarea>
+            <button>Send</button>
+        </form>
+    </div>
+    <label class="collapsible">
+      <input type="checkbox" />
+      <span class="collapser">A question</span>
+      <span class="arrow">&gt;</span>
+      <div class="collapsed">The answer</div>
+    </label>
+    
+    <label class="collapsible">
+      <input type="checkbox" />
+      <span class="arrow">></span>
+      <div class="collapser">
+        What does Cat Ipsum look like?
+      </div>
+      <div class="collapsed">Cat ipsum dolor sit amet, kitty loves pigs and mice. Intently stare at the same spot i am the best love and coo around boyfriend who purrs and makes the perfect moonlight eyes so i can purr and swat the glittery gleaming yarn to him (the yarn is from a $125 sweater) or pushes butt to face and dream about hunting birds and lick the other cats, cough hairball on conveniently placed pants.</div>
+    </label>
+    
+    <label class="collapsible">
+      <input type="checkbox" />
+      <span class="arrow">></span>
+      <div class="collapser">
+        How about Corporate Ipsum?</div>
+      <div class="collapsed">Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Efficiently unleash cross-media information without cross-media value.</div>
+    </label>
+</body>
+</html>
+
+
+CSS
+
+
+
+section, .form {
+  flex-direction: flex;
+}
+
+section {
+  flex-direction: row;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 500px;
+}
+
+
+.form {
+  position: relative;
+  flex-direction: column;
+  padding: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+  width: 400px;
+  gap: 3em;
+  align-items: center;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border: 2px solid whitesmoke;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+
+
+
